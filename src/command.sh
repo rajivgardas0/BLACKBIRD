@@ -10,5 +10,5 @@ echo "git add ." >> command.sh
 echo "git commit -m 'Update logo and link'" >> command.sh
 echo "git push origin update_logo" >> command.sh
 echo "gh pr create --base master --head update_logo --title 'Update logo and link'" >> command.sh
-echo "gh pr merge 1 --auto" >> command.sh
+echo "gh pr merge 2 --auto" >> command.sh
 
